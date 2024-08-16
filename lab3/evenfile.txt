@@ -1,0 +1,20 @@
+world
+up
+the
+and
+come
+panic
+
+(I have written the below after executing q7.sh as the above snippet is what is left post execution)
+was:
+hello
+world
+stay 
+up
+on
+the
+rise
+and
+never 
+come
+down
