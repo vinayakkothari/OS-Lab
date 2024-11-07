@@ -17,7 +17,7 @@ int findLRU(int frame[], int m, int ref[], int x) {
         int j;
         for (j = x - 1; j >= 0; j--) {
             if (frame[i] == ref[j]) {
-                if (j > farthest) {
+                if (j < farthest) {
                     farthest = j;
                     lru_index = i;
                 }
