@@ -38,7 +38,7 @@ int main()
     for (i=0;i<n;i++){
         scanf("%d", &holes[i]);
     }
-    int *process=(int*)malloc(n*sizeof(int));
+    int *process=(int*)malloc(m*sizeof(int));
     printf("Enter the sizes of processes:\n");
     for (i=0;i<m;i++){
         scanf("%d", &process[i]);
